@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>贪食蛇游戏</title>
+    <title>我的应用集合</title>
     <meta http-equiv="refresh" content="0; url=贪食蛇小游戏.html">
     <style>
         body {
@@ -23,34 +23,48 @@
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
+        .description {
+            font-size: 18px;
+            opacity: 0.8;
+            margin-bottom: 40px;
+            text-align: center;
+        }
         .buttons {
-            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
         }
         a {
             display: inline-block;
-            padding: 15px 40px;
-            margin: 10px;
+            padding: 20px 50px;
             background: rgba(255,255,255,0.2);
             color: white;
             text-decoration: none;
             border-radius: 30px;
-            font-size: 20px;
+            font-size: 22px;
             transition: all 0.3s;
             border: 2px solid rgba(255,255,255,0.3);
+            text-align: center;
+            min-width: 320px;
         }
         a:hover {
             background: rgba(255,255,255,0.3);
             transform: translateY(-2px);
             box-shadow: 0 5px 20px rgba(0,0,0,0.2);
         }
+        a:active {
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
-    <h1>🐍 贪食蛇游戏</h1>
-    <p>选择游戏版本开始游戏：</p>
+    <h1>🎮 我的应用集合</h1>
+    <p class="description">选择你喜欢的应用开始使用</p>
     <div class="buttons">
-        <a href="贪食蛇小游戏.html">贪食蛇小游戏（粒子特效版）</a>
-        <a href="snake.html">贪吃蛇（移动端优化版）</a>
+        <a href="贪食蛇小游戏.html">🐍 贪食蛇小游戏（粒子特效版）</a>
+        <a href="snake.html">🐍 贪吃蛇（移动端优化版）</a>
+        <a href="pomodoro.html">🍅 番茄时钟</a>
     </div>
 </body>
 </html>
